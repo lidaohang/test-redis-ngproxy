@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://afflib.org/tcpflow/' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Feature Extraction</dc:type>
+  </metadata>
+  <creator version='1.0'>
+    <program>TCPFLOW</program>
+    <version>1.4.6</version>
+    <build_environment>
+      <compiler>4.4.7 (4.4.7 20120313 (Red Hat 4.4.7-4))</compiler>
+      <CPPFLAGS> -I/usr/local/include -I/usr/local/include  -DUTC_OFFSET=+0800 </CPPFLAGS>
+      <CFLAGS>-g    -g -O3 -MD -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes</CFLAGS>
+      <CXXFLAGS>-g  -g -O3 -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Weffc++ -std=c++0x -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Wstrict-null-sentinel -Weffc++ </CXXFLAGS>
+      <LDFLAGS>-L/usr/local/lib -L/usr/local/lib </LDFLAGS>
+      <LIBS>-lpcap -lcairo -lfontconfig -lfreetype -lbz2 -lpixman-1  -lsqlite3 -lssl -lcrypto -lssl -lcrypto -ldl -lz </LIBS>
+      <compilation_date>2016-09-27T14:07:23</compilation_date>
+      <library name="boost" version="105300"/>
+      <library name="sqlite" version="3.6.20" source_id="2009-11-04 13:30:02 eb7a544fe49d1626bacecfe53ddc03fe082e3243"/>
+      <git commit="tcpflow-1.4.0beta1-186-ge922d10-dirty"/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>2.6.32-431.el6.x86_64</os_release>
+      <os_version>#1 SMP Fri Nov 22 03:15:09 UTC 2013</os_version>
+      <host>lihang_test</host>
+      <arch>x86_64</arch>
+      <command_line>tcpflow -cp -i lo host 10.94.106.240 and port 1234</command_line>
+      <uid>0</uid>
+      <start_time>2017-05-27T06:22:49Z</start_time>
+    </execution_environment>
+  </creator>
+  <configuration>
+  </configuration>
+  <tdelta>0</tdelta>
+  <configuration>
+    <fileobject>
+      <filename>010.094.106.240.49951-010.094.106.240.01234</filename>
+      <filesize>894621</filesize>
+      <tcpflow startime='2017-05-27T14:22:49.804137Z' endtime='2017-05-27T14:22:50.446904Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='273' srcport='49951' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.49950-010.094.106.240.01234</filename>
+      <filesize>819190</filesize>
+      <tcpflow startime='2017-05-27T14:22:49.764458Z' endtime='2017-05-27T14:22:50.382188Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='250' srcport='49950' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.49951-010.094.106.240.01234</filename>
+      <filesize>308038</filesize>
+      <tcpflow startime='2017-05-27T14:22:50.582727Z' endtime='2017-05-27T14:22:51.337142Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='94' srcport='49951' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.49950-010.094.106.240.01234</filename>
+      <filesize>596354</filesize>
+      <tcpflow startime='2017-05-27T14:22:50.602306Z' endtime='2017-05-27T14:22:51.250226Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='182' srcport='49950' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.49980-010.094.106.240.01234</filename>
+      <filesize>655400</filesize>
+      <tcpflow startime='2017-05-27T14:22:52.624446Z' endtime='2017-05-27T14:22:53.342864Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='203' srcport='49980' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.49979-010.094.106.240.01234</filename>
+      <filesize>186831</filesize>
+      <tcpflow startime='2017-05-27T14:22:52.622081Z' endtime='2017-05-27T14:22:53.364969Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='61' srcport='49979' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.51155-010.094.106.240.01234</filename>
+      <filesize>557030</filesize>
+      <tcpflow startime='2017-05-27T14:25:04.643835Z' endtime='2017-05-27T14:25:05.308801Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='170' srcport='51155' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.51156-010.094.106.240.01234</filename>
+      <filesize>606245</filesize>
+      <tcpflow startime='2017-05-27T14:25:04.697726Z' endtime='2017-05-27T14:25:05.449854Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='185' srcport='51156' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.51182-010.094.106.240.01234</filename>
+      <filesize>642292</filesize>
+      <tcpflow startime='2017-05-27T14:25:06.434273Z' endtime='2017-05-27T14:25:07.129129Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='199' srcport='51182' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.51181-010.094.106.240.01234</filename>
+      <filesize>271973</filesize>
+      <tcpflow startime='2017-05-27T14:25:06.432491Z' endtime='2017-05-27T14:25:07.164132Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='87' srcport='51181' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.51570-010.094.106.240.01234</filename>
+      <filesize>321146</filesize>
+      <tcpflow startime='2017-05-27T14:25:34.705178Z' endtime='2017-05-27T14:25:35.344024Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='98' srcport='51570' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.51569-010.094.106.240.01234</filename>
+      <filesize>399794</filesize>
+      <tcpflow startime='2017-05-27T14:25:34.949537Z' endtime='2017-05-27T14:25:35.742972Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='122' srcport='51569' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.51593-010.094.106.240.01234</filename>
+      <filesize>406390</filesize>
+      <tcpflow startime='2017-05-27T14:25:36.598488Z' endtime='2017-05-27T14:25:37.260840Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='128' srcport='51593' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.51594-010.094.106.240.01234</filename>
+      <filesize>373548</filesize>
+      <tcpflow startime='2017-05-27T14:25:36.601440Z' endtime='2017-05-27T14:25:37.319869Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='116' srcport='51594' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.52439-010.094.106.240.01234</filename>
+      <filesize>258793</filesize>
+      <tcpflow startime='2017-05-27T14:27:11.679020Z' endtime='2017-05-27T14:27:12.492741Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='80' srcport='52439' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.52438-010.094.106.240.01234</filename>
+      <filesize>770095</filesize>
+      <tcpflow startime='2017-05-27T14:27:11.700419Z' endtime='2017-05-27T14:27:12.369878Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='235' srcport='52438' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.52447-010.094.106.240.01234</filename>
+      <filesize>639015</filesize>
+      <tcpflow startime='2017-05-27T14:27:13.580250Z' endtime='2017-05-27T14:27:14.352235Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='195' srcport='52447' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.52448-010.094.106.240.01234</filename>
+      <filesize>367024</filesize>
+      <tcpflow startime='2017-05-27T14:27:13.904477Z' endtime='2017-05-27T14:27:14.645871Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='112' srcport='52448' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.52788-010.094.106.240.01234</filename>
+      <filesize>494827</filesize>
+      <tcpflow startime='2017-05-27T14:27:45.642485Z' endtime='2017-05-27T14:27:46.270598Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='153' srcport='52788' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.52787-010.094.106.240.01234</filename>
+      <filesize>412944</filesize>
+      <tcpflow startime='2017-05-27T14:27:45.640234Z' endtime='2017-05-27T14:27:46.392692Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='130' srcport='52787' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.52813-010.094.106.240.01234</filename>
+      <filesize>422703</filesize>
+      <tcpflow startime='2017-05-27T14:27:47.452229Z' endtime='2017-05-27T14:27:48.185950Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='131' srcport='52813' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.52812-010.094.106.240.01234</filename>
+      <filesize>593179</filesize>
+      <tcpflow startime='2017-05-27T14:27:47.449830Z' endtime='2017-05-27T14:27:48.151773Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='185' srcport='52812' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.53471-010.094.106.240.01234</filename>
+      <filesize>514489</filesize>
+      <tcpflow startime='2017-05-27T14:28:47.786122Z' endtime='2017-05-27T14:28:48.463456Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='159' srcport='53471' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.53470-010.094.106.240.01234</filename>
+      <filesize>455515</filesize>
+      <tcpflow startime='2017-05-27T14:28:47.784254Z' endtime='2017-05-27T14:28:48.678616Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='143' srcport='53470' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.53490-010.094.106.240.01234</filename>
+      <filesize>452226</filesize>
+      <tcpflow startime='2017-05-27T14:28:49.726063Z' endtime='2017-05-27T14:28:50.311972Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='138' srcport='53490' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.53489-010.094.106.240.01234</filename>
+      <filesize>452226</filesize>
+      <tcpflow startime='2017-05-27T14:28:49.683501Z' endtime='2017-05-27T14:28:50.428838Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='140' srcport='53489' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.53784-010.094.106.240.01234</filename>
+      <filesize>419468</filesize>
+      <tcpflow startime='2017-05-27T14:29:18.551874Z' endtime='2017-05-27T14:29:19.334911Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='132' srcport='53784' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.53785-010.094.106.240.01234</filename>
+      <filesize>609522</filesize>
+      <tcpflow startime='2017-05-27T14:29:18.554424Z' endtime='2017-05-27T14:29:19.117606Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='188' srcport='53785' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.53794-010.094.106.240.01234</filename>
+      <filesize>740572</filesize>
+      <tcpflow startime='2017-05-27T14:29:20.411837Z' endtime='2017-05-27T14:29:21.133864Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='226' srcport='53794' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.53795-010.094.106.240.01234</filename>
+      <filesize>294930</filesize>
+      <tcpflow startime='2017-05-27T14:29:20.355085Z' endtime='2017-05-27T14:29:21.047017Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='90' srcport='53795' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.54521-010.094.106.240.01234</filename>
+      <filesize>804371</filesize>
+      <tcpflow startime='2017-05-27T14:30:54.761351Z' endtime='2017-05-27T14:30:56.063309Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='287' srcport='54521' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.54520-010.094.106.240.01234</filename>
+      <filesize>894424</filesize>
+      <tcpflow startime='2017-05-27T14:30:54.816017Z' endtime='2017-05-27T14:30:56.115137Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='324' srcport='54520' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.54552-010.094.106.240.01234</filename>
+      <filesize>347362</filesize>
+      <tcpflow startime='2017-05-27T14:30:57.481618Z' endtime='2017-05-27T14:30:57.749944Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='106' srcport='54552' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.54551-010.094.106.240.01234</filename>
+      <filesize>855297</filesize>
+      <tcpflow startime='2017-05-27T14:30:57.670364Z' endtime='2017-05-27T14:30:58.377887Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='261' srcport='54551' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.54569-010.094.106.240.01234</filename>
+      <filesize>485038</filesize>
+      <tcpflow startime='2017-05-27T14:30:59.368220Z' endtime='2017-05-27T14:31:00.180451Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='152' srcport='54569' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.54571-010.094.106.240.01234</filename>
+      <filesize>609522</filesize>
+      <tcpflow startime='2017-05-27T14:30:59.370886Z' endtime='2017-05-27T14:31:00.182259Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='188' srcport='54571' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.54947-010.094.106.240.01234</filename>
+      <filesize>737325</filesize>
+      <tcpflow startime='2017-05-27T14:31:28.963684Z' endtime='2017-05-27T14:31:29.683871Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='227' srcport='54947' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.54946-010.094.106.240.01234</filename>
+      <filesize>275310</filesize>
+      <tcpflow startime='2017-05-27T14:31:28.961666Z' endtime='2017-05-27T14:31:29.783722Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='88' srcport='54946' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.54971-010.094.106.240.01234</filename>
+      <filesize>616076</filesize>
+      <tcpflow startime='2017-05-27T14:31:30.796445Z' endtime='2017-05-27T14:31:31.449760Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='191' srcport='54971' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.54970-010.094.106.240.01234</filename>
+      <filesize>481761</filesize>
+      <tcpflow startime='2017-05-27T14:31:30.793848Z' endtime='2017-05-27T14:31:31.639602Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='151' srcport='54970' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.56873-010.094.106.240.01234</filename>
+      <filesize>580029</filesize>
+      <tcpflow startime='2017-05-27T14:35:23.666764Z' endtime='2017-05-27T14:35:24.378585Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='177' srcport='56873' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.56872-010.094.106.240.01234</filename>
+      <filesize>429287</filesize>
+      <tcpflow startime='2017-05-27T14:35:23.715817Z' endtime='2017-05-27T14:35:24.557910Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='131' srcport='56872' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.56897-010.094.106.240.01234</filename>
+      <filesize>730813</filesize>
+      <tcpflow startime='2017-05-27T14:35:25.508480Z' endtime='2017-05-27T14:35:26.293892Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='227' srcport='56897' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.56898-010.094.106.240.01234</filename>
+      <filesize>344085</filesize>
+      <tcpflow startime='2017-05-27T14:35:25.510513Z' endtime='2017-05-27T14:35:26.170041Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='108' srcport='56898' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.57245-010.094.106.240.01234</filename>
+      <filesize>350681</filesize>
+      <tcpflow startime='2017-05-27T14:35:56.260303Z' endtime='2017-05-27T14:35:57.016090Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='111' srcport='57245' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.57246-010.094.106.240.01234</filename>
+      <filesize>455503</filesize>
+      <tcpflow startime='2017-05-27T14:35:56.262635Z' endtime='2017-05-27T14:35:56.947986Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='142' srcport='57246' dstport='1234' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>010.094.106.240.57259-010.094.106.240.01234</filename>
+      <filesize>557060</filesize>
+      <tcpflow startime='2017-05-27T14:35:57.997367Z' endtime='2017-05-27T14:35:58.659083Z' src_ipn='10.94.106.240' dst_ipn='10.94.106.240' packets='172' srcport='57259' dstport='1234' family='2' />
+    </fileobject>
